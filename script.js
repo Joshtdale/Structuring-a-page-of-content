@@ -1,7 +1,7 @@
 console.log('script working');
 
-let darkButton = document.getElementById('darkButton');
+let darkMode = document.getElementById('darkMode');
 
-darkButton.addEventListener('click', () => {
+darkMode.addEventListener('click', () => {
     console.log('clicked')
 });
