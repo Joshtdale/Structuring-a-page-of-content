@@ -18,12 +18,12 @@ body {
 
 /* || typography */
 
-h1, h2, h3 {
+.headerText {
   font-family: 'Cinzel Decorative', cursive;
   color: #2a2a2a;
 }
 
-p, input, li {
+text {
   font-family: 'Roboto Condensed', sans-serif;
   color: #2a2a2a;
 }
@@ -61,10 +61,15 @@ body > * {
   padding: 1%;
 }
 
-main, header, nav, article, aside, footer, section {
-  background-color: rgba(0,255,0,0.5);
+.element {
+  background-color: #00ff0080;
   padding: 1%;
 }
+/* 
+nav, article, aside, footer, section {
+  background-color: rgba(0,255,0,0.5);
+  padding: 1%;
+} */
 
 h1 {
   flex: 5;
@@ -136,3 +141,10 @@ aside img {
 footer {
   margin-top: 10px;
 }
+
+a:hover {
+  cursor: pointer;
+  opacity: 0.2;
+}
+
+
