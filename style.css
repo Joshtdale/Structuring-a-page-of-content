@@ -61,10 +61,21 @@ body > * {
   padding: 1%;
 }
 
+/* .dark {
+  background-color: grey;
+  color: white;
+  padding: 1%;
+} */
+
+
 .element {
   background-color: #00ff0080;
   padding: 1%;
 }
+
+
+
+
 /* 
 nav, article, aside, footer, section {
   background-color: rgba(0,255,0,0.5);
