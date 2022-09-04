@@ -5,26 +5,31 @@ let darkMode = document.getElementById('darkMode');
 let headerText = document.getElementsByClassName('headerText')
 
 
-// document.querySelectorAll('.element').addEventListener('click', () => {
-// var element = document.querySelectorAll('.element');
-// if (element.classList.contains('active')) {
-//     element.classList.remove('active');
-// } else {
-//     element.classList.add('active')
-// }
-// });
 
-const elements = document.querySelectorAll('.element')
 
-darkMode.addEventListener('click', () => {
-    console.log('clicked')
+// const elements = document.querySelectorAll('.element')
 
-elements.forEach(element => {
+document.querySelector('.element').addEventListener('click', () => {
+    // event.preventDefault();
+    var element = document.querySelector('.element');
+    if (element.classList.contains('dark')) {
+    element.classList.remove('dark');
+    } else {
+    element.classList.add('dark');
+    }
+});
+
+
+// console.log(darkMode)
+// darkMode.addEventListener('click', () => {
+//     console.log('clicked')
+
+// elements.forEach(element => {
     
-    element.style.backgroundColor = 'grey';
-    element.style.color = 'white';
-    // headerText.style.color = 'white';
-  });
+//     element.style.backgroundColor = 'grey';
+//     element.style.color = 'white';
+//     // headerText.style.color = 'white';
+// });
 
 
 // event.target.classList.add('dark')
@@ -54,4 +59,4 @@ elements.forEach(element => {
 
     // if(document.html.style.backgroundColor === '#a9a9a9')
     // document.main.style.backgroundColor = 'black'
-});
+// });

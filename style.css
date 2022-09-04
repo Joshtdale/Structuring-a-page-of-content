@@ -61,11 +61,7 @@ body > * {
   padding: 1%;
 }
 
-/* .dark {
-  background-color: grey;
-  color: white;
-  padding: 1%;
-} */
+
 
 
 .element {
@@ -73,7 +69,11 @@ body > * {
   padding: 1%;
 }
 
-
+.dark {
+  background-color: grey;
+  color: white;
+  padding: 1%;
+}
 
 
 /* 
