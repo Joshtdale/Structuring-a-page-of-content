@@ -9,9 +9,9 @@ let headerText = document.getElementsByClassName('headerText')
 
 // const elements = document.querySelectorAll('.element')
 
-document.querySelector('.element').addEventListener('click', () => {
+document.querySelector('#darkMode').addEventListener('click', () => {
     // event.preventDefault();
-    var element = document.querySelector('.element');
+    var element = document.querySelectorAll('.element');
     if (element.classList.contains('dark')) {
     element.classList.remove('dark');
     } else {
