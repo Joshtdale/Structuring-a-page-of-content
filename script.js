@@ -7,16 +7,17 @@ let headerText = document.getElementsByClassName('headerText')
 
 
 
-// const elements = document.querySelectorAll('.element')
+const elements = document.querySelectorAll('.element')
 
-document.querySelector('#darkMode').addEventListener('click', () => {
+darkMode.addEventListener('click', () => {
     // event.preventDefault();
-    var element = document.querySelectorAll('.element');
+    for (var element of elements) {
     if (element.classList.contains('dark')) {
     element.classList.remove('dark');
     } else {
     element.classList.add('dark');
     }
+}
 });
 
 
